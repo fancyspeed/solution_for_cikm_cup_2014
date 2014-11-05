@@ -61,8 +61,8 @@ About the competition, please visit http://cikm2014.fudan.edu.cn/index.php/Index
 ## How to run
 
   * Dependencies:
-    1. XGBoost for GBT: https://github.com/tqchen/xgboost
-    2. Liblinear for LR 
+    1. XGBoost for GBM: https://github.com/tqchen/xgboost
+    2. Liblinear for LR and SVC: http://www.csie.ntu.edu.tw/~cjlin/liblinear/ 
 
   * Assumpation:
     1. XGboost's path is ../../tools/xgboost3/ 
