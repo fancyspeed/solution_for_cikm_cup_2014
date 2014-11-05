@@ -16,7 +16,7 @@ About the competition, please visit http://cikm2014.fudan.edu.cn/index.php/Index
 * Unlabelled data
 * Unbalanced data
 
-## Ideas
+## Ideas for each challenge
 
 * Structured labels
 * N-gram, word position, aggregated query as a sample
@@ -47,7 +47,7 @@ About the competition, please visit http://cikm2014.fudan.edu.cn/index.php/Index
 * Labelled LDA: modified PLDA
 * Markov Chain: query-query similarity by text and session co-occurrence
 
-## Ensemble
+## Ensembles
 
 * weighted averaging
 * linear model
