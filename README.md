@@ -71,8 +71,8 @@ About the competition, please visit http://cikm2014.fudan.edu.cn/index.php/Index
     4. need 3 folds ../trans_data, ../dataset, ../submit for temporary data
 
   * Run:
-    >>cd V2
-    >>sh -x run_all.sh
+    1. `cd V2`
+    2. `sh -x run_all.sh`
 
   * Steps:
     1. split train.txt to dog/valid (for offline tuning): split_train.py 
