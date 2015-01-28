@@ -70,11 +70,15 @@ About the competition, please visit http://cikm2014.fudan.edu.cn/index.php/Index
     3. raw training data is in ../raw_data
     4. need 3 folds ../trans_data, ../dataset, ../submit for temporary data
 
+  * Run:
+    >> cd V2
+    >> sh -x run_all.sh
+
   * Steps:
-    1. reorganize train.txt: refine_train_by_sesson_query.py 
-    2. merge information for each query: trans_train1.py and trans_train2.py
-    3. generate features: prepare1.py
-    4. train: run_xgboost3_pig.sh
-    5. train: run_liblinear_pig.sh
-    6. ensemble: run_average.sh
+    1. split train.txt to dog/valid (for offline tuning): split_train.py 
+    2. merge information for each query: trans_train.py
+    3. generate features: prepare_feature.py
+    4. train and predict by xgboost: run_xgboost3_dog.sh
+    5. train and predict by liblinear: run_liblinear_dog.sh
+    6. ensemble: run_ensemble.sh
 
