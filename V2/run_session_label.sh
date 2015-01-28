@@ -1,4 +1,6 @@
 #!/bin/sh -x
+python trans_session.py
+python prepare_session.py
 python markov_sessoin_label.py
 
 #python construct_semilda.py pred_semilda_dog.txt $test_file ../trans_data/valid.txt ../dataset/label_map_lda ../submit/dog_semilda.txt
